@@ -1,0 +1,24 @@
+.input-container{
+    display: table;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 20%;
+}
+
+.input-container input{
+    display: flex;
+    height: 2pc;
+    width: 70%;
+    margin-top: 22px;
+    margin-left: 65px;
+    outline: none;
+    font-size: 17px;
+    
+}
+
+.form-btn{
+    margin-left: 45%;
+    margin-top: 34px;
+    padding: 6px 16px;
+    text-align: center;
+}
