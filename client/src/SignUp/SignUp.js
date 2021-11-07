@@ -3,9 +3,17 @@ import "./signup.css";
 import axios from "axios";
 import Navbar from '../Navbar/Navbar';
 
+
+
+
+
+
+
 export class SignUp extends Component {
     constructor() {
+        
         super()
+        
         this.state = {
             fullName: '',
             username: '',
@@ -18,6 +26,8 @@ export class SignUp extends Component {
         this.changePassword = this.changePassword.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
     }
+
+    
 
     changeFullName(event) {
         this.setState({
@@ -62,11 +72,17 @@ export class SignUp extends Component {
             email: '',
             password: ''
         })
+        
     }
+
+    
+    
 
 
     render() {
+        
         return (
+            
             <div>
                 <Navbar/>
                 <div className="main-container">
@@ -80,7 +96,8 @@ export class SignUp extends Component {
 
                         <input type="submit" className="form-btn" value="Submit" />
                         <p className="or">Or</p>
-                        <input type="submit" className="form-btn form-btn-1" value="Login" />
+                       <a href="/login"><button className="form-btn form-btn-1"><a className="form-btn-1" href="/login">LogIn</a></button></a>
+                    
 
                     </form >
                 </div>
