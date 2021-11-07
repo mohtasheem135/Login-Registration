@@ -11,8 +11,12 @@ const cors = require('cors')
 
 
 app.use(express.json())
+app.use(express.urlencoded())
 app.use(cors())
 app.use('/app', routesUrls)
+
+
+
 app.listen(port, ()=>{
     console.log(`Listen on port http://localhost:${port}`);
 });

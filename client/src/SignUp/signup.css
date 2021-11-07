@@ -1,24 +1,64 @@
-.input-container{
-    display: table;
-    width: 50%;
-    /* border: 2px solid black; */
-    margin-left: 20%;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.main-container{
+    border: 2px solid black;
+    height: 87vh;
+    background-color: rgba(221, 235, 255, 0.514);
 }
 
-.input-container input{
+
+
+
+.input-container{
+    display: table;
+    width: 35%;
+    border: 2px solid black;
+    margin-top: 5%;
+    background-color: white;
+    height: 24pc;
+    margin-left: 32%;
+    box-shadow: 2px 1px 7px black;
+    border-radius: 7px;
+}
+
+.input-field{
     display: flex;
     height: 2pc;
     width: 70%;
-    margin-top: 22px;
+    margin-top: 19px;
     margin-left: 65px;
     outline: none;
     font-size: 17px;
+    font-family: 'Raleway', sans-serif;
     
 }
 
 .form-btn{
-    margin-left: 45%;
-    margin-top: 34px;
-    padding: 6px 16px;
+    height: 3pc;
+    width: 71%;
+    font-size: 17px;
+    margin-top: 19px;
+    margin-left: 65px;
+    outline: none;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color:  #007bff;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-btn:hover{
+    background-color:  #007bffb7;
+}
+
+.or{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: -2px;
+
+}
+
+.form-btn-1{
+    margin-top: -14px;
 }
